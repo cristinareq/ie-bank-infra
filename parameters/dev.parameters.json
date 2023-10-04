@@ -6,19 +6,19 @@
             "value": "nonprod"
         },
         "postgreSQLServerName": {
-            "value": "cristinarequena-dbsrv-dev"
+            "value": "cristinareq-dbsrv-dev"
         },
         "postgreSQLDatabaseName": {
-            "value": "cristinarequena-db-dev"
+            "value": "cristinareq-db-dev"
         },
         "appServicePlanName": {
-            "value": "cristinarequena-asp-dev"
+            "value": "cristinareq-asp-dev"
         },
         "appServiceAPIAppName": {
-            "value": "cristinarequena-be-dev"
+            "value": "cristinareq-be-dev"
         },
         "appServiceAppName": {
-            "value": "cristinarequena-fe-dev"
+            "value": "cristinareq-fe-dev"
         },
         "location": {
             "value": "Switzerland North"
