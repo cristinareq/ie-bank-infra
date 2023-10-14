@@ -7,7 +7,7 @@ env:
   RESOURCE_GROUP_UAT: aguadamillas_students_2
   SUBSCRIPTION_ID_DEV: e0b9cada-61bc-4b5a-bd7a-52c606726b3b
   SUBSCRIPTION_ID_UAT: e0b9cada-61bc-4b5a-bd7a-52c606726b3b
-  USER_ALIAS: cristireq
+  USER_ALIAS: cristire
 
 jobs:
   build:
@@ -29,8 +29,8 @@ jobs:
 
     env:
       ENV: dev
-      DBHOST: cristireq-dbsrv-dev.postgres.database.azure.com
-      DBNAME: cristireq-db-dev
+      DBHOST: cristire-dbsrv-dev.postgres.database.azure.com
+      DBNAME: cristire-db-dev
       Flask_APP: app.py
       FLASK_DEBUG: 1
 
@@ -61,8 +61,8 @@ jobs:
       name: "User Acceptance Testing"
     env:
       ENV: uat
-      DBHOST: cristireq-dbsrv-uat.postgres.database.azure.com
-      DBNAME: cristireq-db-uat
+      DBHOST: cristire-dbsrv-uat.postgres.database.azure.com
+      DBNAME: cristire-db-uat
       Flask_APP: app.py
       FLASK_DEBUG: 1
 
