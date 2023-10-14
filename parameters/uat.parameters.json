@@ -6,19 +6,19 @@
             "value": "nonprod"
         },
         "postgreSQLServerName": {
-            "value": "cristinareq-dbsrv-uat"
+            "value": "cristireq-dbsrv-uat"
         },
         "postgreSQLDatabaseName": {
-            "value": "cristinareq-db-uat"
+            "value": "cristireq-db-uat"
         },
         "appServicePlanName": {
-            "value": "cristinareq-asp-uat"
+            "value": "cristireq-asp-uat"
         },
         "appServiceAPIAppName": {
-            "value": "cristinareq-be-uat"
+            "value": "cristireq-be-uat"
         },
         "appServiceAppName": {
-            "value": "cristinareq-fe-uat"
+            "value": "cristireq-fe-uat"
         },
         "location": {
             "value": "Norway East"
