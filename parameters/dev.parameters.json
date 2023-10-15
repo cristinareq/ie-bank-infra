@@ -3,28 +3,28 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "environmentType": {
-            "value": "prod"
+            "value": "nonprod"
         },
         "postgreSQLServerName": {
-            "value": "cristire-dbsrv-uat"
+            "value": "cristire-dbsrv-dev"
         },
         "postgreSQLDatabaseName": {
-            "value": "cristire-db-uat"
+            "value": "cristire-db-dev"
         },
         "appServicePlanName": {
-            "value": "cristire-asp-uat"
+            "value": "cristire-asp-dev"
         },
         "appServiceAPIAppName": {
-            "value": "cristire-be-uat"
+            "value": "cristire-be-dev"
         },
         "appServiceAppName": {
-            "value": "cristire-fe-uat"
+            "value": "cristire-fe-dev"
         },
         "azureMonitorName": {
-            "value": "cristire-am-uat"
+            "value": "cristire-am-dev"
         },
         "appInsightsName": {
-            "value": "cristire-ai-uat"
+            "value": "cristire-ai-dev"
         },
         
         "location": {
