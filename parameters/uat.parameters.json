@@ -20,6 +20,12 @@
         "appServiceAppName": {
             "value": "cristire-fe-uat"
         },
+        "azureMonitorName": {
+            "value": "cristire-am-uat"
+        },
+        "appInsightsName": {
+            "value": "cristire-ai-uat"
+        },
         "location": {
             "value": "UK South"
         }
