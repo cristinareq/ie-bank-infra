@@ -17,7 +17,7 @@ env:
   SUBSCRIPTION_ID_DEV: e0b9cada-61bc-4b5a-bd7a-52c606726b3b
   SUBSCRIPTION_ID_UAT: e0b9cada-61bc-4b5a-bd7a-52c606726b3b
 
-  USER_ALIAS: cristire
+  USER_ALIAS: cristireq
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -37,8 +37,8 @@ jobs:
       name: "Development"
     env:
       ENV: dev
-      DBHOST: cristire-dbsrv-dev.postgres.database.azure.com
-      DBNAME: cristire-db-dev
+      DBHOST: cristireq-dbsrv-dev.postgres.database.azure.com
+      DBNAME: cristireq-db-dev
       DBUSER: "iebankdbadmin"
       DBPASS: "IE.Bank.DB.Admin.Pa$$"
       FLASK_APP: app.py
@@ -71,8 +71,8 @@ jobs:
       name: "User Acceptance Testing"
     env:
       ENV: uat
-      DBHOST: cristire-dbsrv-uat.postgres.database.azure.com
-      DBNAME: cristire-db-uat
+      DBHOST: cristireq-dbsrv-uat.postgres.database.azure.com
+      DBNAME: cristireq-db-uat
       DBUSER: "iebankdbadmin"
       DBPASS: "IE.Bank.DB.Admin.Pa$$"
       FLASK_APP: app.py
