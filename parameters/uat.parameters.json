@@ -6,25 +6,25 @@
             "value": "prod"
         },
         "postgreSQLServerName": {
-            "value": "cristire-dbsrv-uat"
+            "value": "cristireq-dbsrv-uat"
         },
         "postgreSQLDatabaseName": {
-            "value": "cristire-db-uat"
+            "value": "cristireq-db-uat"
         },
         "appServicePlanName": {
-            "value": "cristire-asp-uat"
+            "value": "cristireq-asp-uat"
         },
         "appServiceAPIAppName": {
-            "value": "cristire-be-uat"
+            "value": "cristireq-be-uat"
         },
         "appServiceAppName": {
-            "value": "cristire-fe-uat"
+            "value": "cristireq-fe-uat"
         },
         "azureMonitorName": {
-            "value": "cristire-am-uat"
+            "value": "cristireq-am-uat"
         },
         "appInsightsName": {
-            "value": "cristire-ai-uat"
+            "value": "cristireq-ai-uat"
         },
         "location": {
             "value": "Korea Central"
