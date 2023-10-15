@@ -6,25 +6,25 @@
             "value": "nonprod"
         },
         "postgreSQLServerName": {
-            "value": "cristire-dbsrv-dev"
+            "value": "cristireq-dbsrv-dev"
         },
         "postgreSQLDatabaseName": {
-            "value": "cristire-db-dev"
+            "value": "cristireq-db-dev"
         },
         "appServicePlanName": {
-            "value": "cristire-asp-dev"
+            "value": "cristireq-asp-dev"
         },
         "appServiceAPIAppName": {
-            "value": "cristire-be-dev"
+            "value": "cristireq-be-dev"
         },
         "appServiceAppName": {
-            "value": "cristire-fe-dev"
+            "value": "cristireq-fe-dev"
         },
         "azureMonitorName": {
-            "value": "cristire-am-dev"
+            "value": "cristireq-am-dev"
         },
         "appInsightsName": {
-            "value": "cristire-ai-dev"
+            "value": "cristireq-ai-dev"
         },
         
         "location": {
